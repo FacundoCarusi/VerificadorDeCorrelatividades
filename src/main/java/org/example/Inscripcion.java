@@ -13,7 +13,7 @@ import java.util.*;
 public class Inscripcion {
     private Alumno alumno;
     private List<Materia> materiasAInscribir;
-    private Boolean fueAprobada;
+
 
     public boolean fueAprobada() {
         for (Materia materia : materiasAInscribir) {                //con for
